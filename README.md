@@ -1,4 +1,3 @@
-<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/f9c31f1b-5978-44af-a085-0897e1cb8daf" /># flutter_microfrontend
 
 [![pub version](https://img.shields.io/badge/pub-v1.0.0-blue)](https://pub.dev/packages/flutter_microfrontend)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,8 +6,8 @@
 
 > **Build large-scale Flutter apps as independent, lazy-loadable feature modules.**
 
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/873f1b71-080a-4432-95c6-ff2de1ef93b8" />
 
-<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/4c5dc562-629c-4a77-b7b4-e46605892e9f" />
 
 
 `flutter_microfrontend` brings **micro-frontend architecture** principles to Flutter — enabling teams to split apps into fully isolated feature units that can be loaded, unloaded, and developed independently.
