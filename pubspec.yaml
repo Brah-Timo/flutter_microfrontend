@@ -1,0 +1,47 @@
+name: flutter_microfrontend
+description: >-
+  A production-ready Flutter package for building scalable apps with micro-frontend architecture, supporting lazy-loaded modules, dynamic registration, scoped dependency injection, typed event system, and a flexible plugin system.
+
+version: 1.0.0
+homepage: https://github.com/Brah-Timo/flutter_microfrontend
+repository: https://github.com/Brah-Timo/flutter_microfrontend
+issue_tracker: https://github.com/Brah-Timo/flutter_microfrontend/issues
+
+topics:
+  - micro-frontend
+  - architecture
+  - modular
+  - plugins
+  - dependency-injection
+  
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Reactive programming - powers the Event Bus
+  rxdart: ^0.27.7
+  # Service locator for scoped dependency injection
+  get_it: ^7.6.7
+  # Declarative routing with deep-link support
+  go_router: ^13.2.0
+  # Async utilities
+  async: ^2.11.0
+  # Structured logging
+  logging: ^1.2.0
+  # Annotations (@immutable, @mustCallSuper, etc.)
+  meta: ^1.9.0
+  # Value equality for events
+  equatable: ^2.0.5
+  # Collection utilities
+  collection: ^1.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.9
+  test: ^1.24.0
